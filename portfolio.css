@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "barlow" sans-serif;
+  
+}
+*/ .container-fluid {
+  height: 600px;
+}
+.maincol {
+  background-color: rgb(232, 241, 241);
+}
+.fsd {
+  margin: top;
+}
+.Social-Icons {
+  padding-right: 200px;
+}
+.nav-item {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+.navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  font-family: proxima-nova;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  
+}
+.ab {
+  text-decoration: underline;
+}
+nav ul li {
+  padding-right: 50px;
+}
+
+.column1 {
+  background-color: #3a3a3a;
+}
+.flexx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 600px;
+  margin-top: 30px;
+  margin-left:330px;
+  
+  
+  flex-wrap: nowrap;
+}
+.self {
+  padding-top: 200px;
+  padding-left: 80px;
+}
+h4 {
+  font-weight: bold;
+}
+.fexp {
+  padding-top: 10px;
+}
+.sexp,
+.edu {
+  padding-top: 30px;
+}
+.texp {
+  padding-top: 135px;
+}
+ul.ff {
+  padding-top: 100px;
+}
+ul.fedu{
+  padding-top: 130px;
+
+}
+
+ul.fss {
+  padding-top: 60px;
+}
+ul.ftt {
+  padding-top: 80px;
+}
+#thirdexp
+ {
+  padding-top:90px;
+}
+.name{
+  margin-right:0;
+}
+@media (min-width:992px) {
+  .navbar,
+  .navbar-collapse
+{
+  flex-direction: column;
+}
+.navbar .container-fluid, 
+.navbar-expand-lg .navbar-collapse, 
+.navbar-expand-lg .navbar-nav{
+  
+  flex-direction: column;
+  align-items: flex-start;
+}
